@@ -23,14 +23,14 @@ public class FinalProject {
         String ans1 = proj.next();
 
         if (ans1.equals("Yes")) {
-            System.out.print("What would you like to eat? Biryani or Egg or Bonda : ");
+            System.out.print("What would you like to eat? Biryani or Egg: ");
             String ans2 = proj.next();
 
-            while (!ans2.equals("Biryani") && !ans2.equals("Egg") && !ans2.equals("Bonda")) {
+            while (!ans2.equals("Biryani") && !ans2.equals("Egg")) {
                 System.out.print("Sorry,We don't serve it here.Please , order the items in the list . Biryani or Egg : ");
                 ans2 = proj.next();
             }
-            if(ans2.equals("Biryani") || ans2.equals("Egg") || ans2.equals("Bonda")) {
+            if(ans2.equals("Biryani") || ans2.equals("Egg")) {
                 System.out.print("OKay , you want " + ans2 + " Would you like to order any drinks ? Yes or No: ");
                 String ans3 = proj.next();
 
